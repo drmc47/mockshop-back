@@ -5,7 +5,6 @@ import cors from "cors";
 import { login, register } from "./controllers/auth";
 import { getAllProducts } from "./controllers/products";
 import { createOrder, getUserOrders } from "./controllers/orders";
-// ! Need to config axios to use the same port as the server
 // Create Express server
 export const app = express();
 
