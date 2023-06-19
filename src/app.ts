@@ -16,7 +16,8 @@ app.use(logger("dev"));
 app.use(
     cors({
         credentials: true,
-        origin: "http://localhost:5173",
+        origin: "*",
+
         methods: ["GET", "POST", "DELETE", "PUT", "OPTIONS"],
         allowedHeaders: [
             "Content-Type",
